@@ -1,0 +1,280 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+
+}
+
+header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    /* background-color: rgb(248, 248, 248); */
+}
+header h1{
+    text-align: center;
+}
+nav{
+    /* border: 2px solid red; */
+    width: 100%;
+}
+.nav p{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 25px;
+}
+.head-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.head-text img{
+    margin-top: 7%;
+    width: 80%;
+}
+
+.head-text p{
+    text-align: center;
+    font-size:20px;
+}
+main h2{
+    text-align: center;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    margin: 5%;
+}
+.card img{
+    margin-top: 5%;
+}
+.card h2{
+    text-align: center;
+}
+.card p{
+    text-align: center;
+    font-size: 20px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+footer p{
+    text-align: center;
+    font-size: 20px;
+}
+aside{
+    margin-top: 13%;
+}
+.stanga{
+    float: left;
+}
+.dreapta{
+    float: right;
+}
+.d2{
+    display: none;
+}
+
+
+@media(min-width:720px) and (max-width:900px){
+
+    .nav {
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        /* border: 2px solid red; */
+    }
+    .nav p{
+        margin:3%
+    }
+ 
+    .head-text{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        /* border: 2px solid red; */
+        width: 100%;
+        margin-top: 10%;
+
+    }
+    .head-text img{
+        order: 1;
+        margin-top:0px;
+        margin-left: 2%;
+        /* border: 2px solid red; */
+    }
+    .head-text p{
+        margin-left: 5%;
+        /* border: 2px solid red; */
+        font-size: 20px;
+        text-align: left;
+    }
+
+    
+    main h2{
+        text-align: center;
+    }
+    .container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .card{
+        width: 40%;
+    }
+    .card img{
+        width: 100%;
+    }
+    .card h2{
+        order:1
+    }
+    .card p{
+        order:2
+    }
+
+    footer p{
+        width: 75%;
+        font-size: 20px;
+    }
+
+    
+    .stanga{
+        margin: 3%;
+    }
+    .dreapta{
+        margin:3%
+    }
+    .d2{
+        display: inline;
+    }
+
+    .d1{
+        display: none;
+    }
+    
+}
+
+@media(min-width:901px){
+    
+
+    .titlu{
+        /* border: 2px solid red; */
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+    }
+    .nav {
+        display:flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        /* border: 2px solid red; */
+        width: 70%;
+        margin: auto;
+    }
+    .nav p{
+        margin:3%;
+        font-size: 25px;
+    }
+    .titlu h1{
+        margin-right:auto ;
+        font-size: 30px;
+        margin:3%;
+        /* border: 2px solid red; */
+        width: 30%;
+    }
+    .head-text{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        /* border: 2px solid red; */
+        width: 80%;
+        margin-top: 3%;
+
+    }
+    .head-text img{
+        order: 1;
+        margin-top:0px;
+        margin-left: 2%;
+        width: 50%;
+        /* border: 2px solid red; */
+    }
+    .head-text p{
+        margin-left: 5%;
+        /* border: 2px solid red; */
+        font-size: 25px;
+        text-align: left;
+        width: 50%;
+    }
+
+    main{
+        width: 80%;
+        margin: auto;
+        margin-top: 5%;
+    }
+    main h2{
+        text-align: center;
+        font-size: 30px;
+    }
+    .container{
+        /* margin-left: 10%; */
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .card{
+        width: 29%;
+        margin: 2%;
+    }
+    
+    .card h2{
+        order:1
+    }
+    .card p{
+        order:2
+    }
+
+    footer{
+        width: 80%;
+        margin-left: 10%;
+    }
+    footer p{
+        width: 60%;
+    }
+
+    aside{
+        /* border: 2px solid red; */
+        width: 100%;
+        margin-top: 5%;
+    }
+
+    .clearfix{
+        display: table;
+        content: "";
+        clear: both;
+    }
+    .stanga{
+        margin: 3%;
+        float: left;
+    }
+    .dreapta{
+        margin:3%;
+        float:right
+    }
+    .d1{
+        display: none;
+    }
+    .d2{
+        display: inline;
+    }
+
+}

@@ -1,0 +1,181 @@
+
+.cutie{
+    margin: 10% auto;
+    text-align: center;
+    font-size: 20px;
+}
+.cutie img{
+    margin:auto;
+    width: 80%;
+}
+
+nav p{
+    font-size: 25px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+
+
+aside{
+    margin-top: 13%;
+}
+.stanga{
+    float: left;
+}
+.dreapta{
+    float: right;
+}
+.d2{
+    display: none;
+}
+
+
+
+@media(min-width:720px) and (max-width:900px){
+
+   nav p{
+       display: inline-block;
+       margin: 3%;
+   }
+
+   .clearfix::after{
+       display: table;
+       content:"";
+       clear:both;
+   }
+   .head-text{
+       margin:5%
+   }
+
+   .head-text img{
+       float: right;
+       width: 48%;
+   }
+   .head-text p{
+       float: left;
+       width: 48%;
+       margin-right: 2%;
+   }
+
+   main{
+       /* border: 5px solid red; */
+       width: 100%;
+   }
+
+   .card{
+       width: 47%;
+       margin: 1%;
+       float: left;
+   }
+
+
+
+
+   .box{
+       width: 100%;
+       /* border: 2px solid red; */
+   }
+
+
+   .stanga{
+    margin: 3%;
+}
+.dreapta{
+    margin:3%
+}
+.d2{
+    display: inline;
+}
+
+.d1{
+    display: none;
+}
+}
+
+@media(min-width:901px){
+   .titlu{
+       /* border: 2px solid red; */
+   }
+   .clearfix::after{
+       display: table;
+       content: "";
+       clear: both;
+   }
+
+   .titlu h1{
+       float: left;
+       margin: 3%;
+       font-size: 30PX;
+   }
+
+   .nav{
+       /* border: 2px solid blue; */
+   }
+   .nav p{
+       margin: 3%;
+       font-size: 25PX;
+   }
+
+   nav p{
+       float: right;
+   }
+
+   .head-text{
+    margin:5%
+}
+
+.head-text img{
+    float: right;
+    width: 48%;
+}
+.head-text p{
+    float: left;
+    width: 48%;
+    margin-right: 2%;
+    margin-top:7%;
+}
+
+.box{
+    width: 30%;
+    float: left;
+    margin-left:3%;
+    /* border: 2px solid red; */
+}
+.card{
+    margin-top:5%;
+    width: 100%;
+    /* border: 2px solid red; */
+}
+footer p{
+    width: 50%;
+    margin: auto;
+   
+}
+#p{
+    margin-top: 4%;
+    font-weight: bolder;
+}
+#p2{
+    margin-top: 2%;
+    font-weight: bolder;
+}
+
+.stanga{
+    margin: 3%;
+}
+.dreapta{
+    margin:3%
+}
+.d2{
+    display: inline;
+}
+
+.d1{
+    display: none;
+}
+
+}
+
+
+
